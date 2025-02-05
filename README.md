@@ -1,6 +1,6 @@
 ## Introducing Deduction!
-<img width="1422" alt="Screenshot 2025-02-04 at 11 48 05 PM" src="https://github.com/user-attachments/assets/b5e7e678-28a5-4974-acf3-efa37e7dcbec" />
-<img width="1418" alt="Screenshot 2025-02-04 at 11 50 28 PM" src="https://github.com/user-attachments/assets/1d1c42b2-85fa-4307-891e-eb09c0b4f9de" />
+<img width="1422" alt="Screenshot 2025-02-04 at 11 48 05 PM" src="https://github.com/user-attachments/assets/05e9e7ac-b847-4a91-ab26-62b1ae0e525c" />
+<img width="859" alt="Screenshot 2025-02-05 at 12 13 51 AM" src="https://github.com/user-attachments/assets/5741ee3e-b9db-4091-bb8f-9eb02eefc221" />
 
 A full-stack web app created with the use of React, HTML, CSS, JavaScript, Supabase, and OpenAI, Deduction is the game where you test your AI-deduction skills!
 Choose between three different modes: quotes, pictures, and music and determine which piece of media is either real or completely AI-generated!
