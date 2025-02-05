@@ -1,0 +1,191 @@
+#question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem; /* Fixed height */
+    width: 50rem;  /* Fixed width */
+    background-color: #140524;
+    border: 1px solid #140524;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+
+#answers-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+.answer-button {
+    padding: 1rem;
+    background: #40006b;
+    border: 1px solid #40006b;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.answer-button:hover {
+    background: #7f00ff;
+    border: 1px solid #7f00ff;
+    transform: scale(1.05);
+}
+
+#question-container h2 {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+#question-container h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+#question-container h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+#game-over-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 50rem;
+    background-color: #140524;
+    border: 1px solid #140524;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    overflow: hidden; /* Prevents content from overflowing */
+}
+
+#inner-game-over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 25rem;
+    background-color: #40006b;
+    border: 1px solid #40006b;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+#incorrect-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 30rem;
+    background: linear-gradient(135deg, #ff0080, #ff8eb3); /* Gradient with pink tones */
+    border: 1px solid #ff0080;
+    border-radius: 5px;
+    color: #ffffff; /* Ensures good contrast with the vibrant background */
+    font-size: 1.5rem;
+    transition: all 1s ease;
+    text-align: center;
+}
+
+#incorrect-screen button {
+    width: 10rem;
+    height: 3rem;
+    padding: 0;
+    background: #ff0080; /* Deep pink for the button */
+    border: 1px solid #ff8eb3;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+}
+
+#incorrect-screen button:hover {
+    background: #ff8eb3; /* Lighter pink for hover */
+    border-color: #ff8eb3;
+    transform: scale(1.05);
+}
+
+#correct-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 30rem;
+    background: linear-gradient(135deg, #7f00ff, #5a00ff); /* Gradient with purple tones */
+    border: 1px solid #5a00ff;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    transition: all 1s ease;
+    text-align: center;
+}
+
+#correct-screen button {
+    width: 10rem;
+    height: 3rem;
+    padding: 0;
+    background: #5a00ff; /* Deep purple for the button */
+    border: 1px solid #7f00ff;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+}
+
+#correct-screen button:hover {
+    background: #7f00ff; /* Brighter purple for hover */
+    border-color: #7f00ff;
+    transform: scale(1.05);
+}
+
+
+#inner-game-over button {
+    padding: 1rem;
+    background: #140524;
+    border: 1px solid #140524;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 2rem;
+}
+
+#inner-game-over button:hover {
+    transform: scale(1.05);
+}

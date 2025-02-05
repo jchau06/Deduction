@@ -1,0 +1,32 @@
+html {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+
+    color: #ebe7ef;
+    background: radial-gradient(circle, #2c003e, #40006b, #1e0036, #000000); /* Black and Purple Gradient */
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    min-height: 80rem;
+}
+
+body {
+    overflow: scroll;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    
+ }
+
+#main-div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+ }

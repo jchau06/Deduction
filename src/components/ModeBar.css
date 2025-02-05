@@ -1,0 +1,100 @@
+.mode-bar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center; /* Centers the grid horizontally */
+    align-content: center;  /* Centers the grid vertically (if needed) */
+}
+
+.mode-bar-grid li {
+    justify-self: center;
+}
+
+.grid-selector {
+    padding: 1rem;
+    background-color: #140524;
+    border: 1px solid #140524;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;              /* Makes the container a flexbox */
+    flex-direction: column;     /* Stacks the content vertically */
+    justify-content: center;    /* Centers content horizontally */
+    align-items: center;       /* Centers content vertically */
+    height: 90%;
+}
+
+.grid-selector:hover {
+    transform: scale(1.05);
+}
+
+.grid-selector img {
+    height: 6rem;
+    width: 6rem;
+    margin-top: 1rem;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-selector p{
+    margin: 1rem;
+    font-family: "Quicksand", "sans-serif";
+    font-size: 1.5rem;
+}
+
+#music-text{
+    font-size: 1.5rem;
+
+}
+
+.button-selector {
+    padding: 1rem;
+    background: #140524;
+    border: 1px solid #140524;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Jersey 15", sans-serif;;
+    font-size: 2rem;
+}
+
+.button-selector:hover {
+    background: #40006b;
+    border: 1px solid #40006b;
+}
+
+.input-selector {
+    padding: 1rem;
+    background: #40006b;
+    border: 1px solid #40006b;
+    border-radius: 5px;
+    color: #ebe7ef;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Jersey 15", sans-serif;;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 850px) {
+    .mode-bar-grid {
+        /* grid-template-rows: 1fr 1fr 1fr; */
+    }
+    
+    .grid-selector {
+        height: 100%;
+        /* flex-direction: row; */
+    }
+    /* .button-selector {
+        height: 3rem;
+    } */
+}
